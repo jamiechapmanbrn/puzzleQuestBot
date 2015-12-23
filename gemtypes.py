@@ -1,0 +1,16 @@
+from gems import gem
+class gemTypes: 
+    blue_gem = gem((23.0, 112.0, 128.0),(17.0, 108.0, 119.0),4, 'B', "blue_gem")
+    gold_gem = gem((190.0, 120.0, 66.0),(151.0, 93.0, 51.0),1, 'M', "gold_gem")
+    red_gem = gem((123.0, 8.0, 5.0),(117.0, 4.0, 4.0),2, 'R', "red_gem")
+    exp_gem = gem((122.0, 1.0, 122.0),(116.0, 0.0, 116.0),1, 'E', "exp_gem")
+    yellow_gem = gem((131.0, 132.0, 4.0),(120.0, 121.0, 3.0),6, 'Y', "yellow_gem")
+    red_skull = gem((85.0, 57.0, 46.0),(83.0, 54.0, 43.0),100, 'XS', "red_skull")
+    green_gem = gem((2.0, 115.0, 24.0),(1.0, 108.0, 23.0),4, 'G', "green_gem")
+    skull_gem = gem((127.0, 105.0, 82.0),(111.0, 88.0, 66.0),20, 'S', "skull_gem")
+    double_gem = gem((63.0, 39.0, 30.0),(63.0, 39.0, 30.0),0, '2RGBY', "double_gem")
+    triple_gem = gem((66.0, 55.0, 34.0),(66.0, 55.0, 34.0),0, '3RGBY', "triple_gem")
+    quadruple_gem = gem((85.0, 71.0, 26.0),(80.0, 68.0, 25.0),0, '4RGBY', "quadruple_gem")
+    quintuple_gem = gem((82.0, 69.0, 24.0),(82.0, 69.0, 24.0),0, '5RGBY', "quintuple_gem")
+    hextuple_gem = gem((83.0, 78.0, 17.0),(83.0, 78.0, 17.0),0, '6RGBY', "hextuple_gem")
+    octuple_gem = gem((59.0, 71.0, 32.0),(59.0, 71.0, 32.0),0, '7RGBY', "octuple_gem")

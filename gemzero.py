@@ -1,0 +1,16 @@
+from gems import gem
+class gemTypes: 
+    blue_gem = gem((0,0,0),(255,255,255),4, 'B', "blue_gem")
+    gold_gem = gem((0,0,0),(255,255,255),1, 'M', "gold_gem")
+    red_gem = gem((0,0,0),(255,255,255),2, 'R', "red_gem")
+    exp_gem = gem((0,0,0),(255,255,255),1, 'E', "exp_gem")
+    yellow_gem = gem((0,0,0),(255,255,255),6, 'Y', "yellow_gem")
+    red_skull = gem((0,0,0),(255,255,255),100, 'XS', "red_skull")
+    green_gem = gem((0,0,0),(255,255,255),4, 'G', "green_gem")
+    skull_gem = gem((0,0,0),(255,255,255),20, 'S', "skull_gem")
+    double_gem = gem((0, 0, 0),(255, 255, 255),0, '2BRYG', "double_gem")
+    triple_gem = gem((0, 0, 0),(255, 255, 255),0, '3BRYG', "triple_gem")
+    quadruple_gem = gem((0, 0, 0),(255, 255, 255),0, '4BRYG', "quadruple_gem")
+    quintuple_gem = gem((0,0,0),(255,255,255),0, '5BRYG', "quintuple_gem")
+    hextuple_gem = gem((0, 0, 0),(255, 255, 255),0, '6BRYG', "hextuple_gem")
+    octuple_gem = gem((0,0,0),(255,255,255),0, '7BRYG', "octuple_gem")
